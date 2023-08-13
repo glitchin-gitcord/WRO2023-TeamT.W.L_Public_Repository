@@ -75,5 +75,9 @@ _The artificial vision algorithms that are used to recognize objects or colors a
 
   
 _The objective of this robotic solution model is to demonstrate the capabilities of the ESP32 chip and its possible applications in the field of educational robotics. The robot can perform different tasks such as following a line, avoiding obstacles, recognizing colors or expressing emotions._
+--------------------------------------------------------------------------------------------------------------------------------------
+HOW TO COMPILE THE CODE TO THE VEHICLE
 
+ta ta ta que todavia no tengo el como
+--------------------------------------------------------------------------------------------------------------------------------------
 _Thank You._
