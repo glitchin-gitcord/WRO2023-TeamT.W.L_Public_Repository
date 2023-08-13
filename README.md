@@ -55,7 +55,7 @@ _Anyways, the robot car possesses the following main elements:_
   
   
 
-   -   _Custom Chasis: Since this design is made almost from nothing, we had to recreate some (if not all) of the pieces, being made both from cardboard and other easy-to-find materials, and 3d printed, being only the chasis and other small parts that had to be very resistent 3d printed. _  
+   -   _Custom Chasis: Since this design is made almost from nothing, we had to recreate some (if not all) of the pieces, being made both from cardboard and other easy-to-find materials, and 3d printed, being only the chasis and other small parts that had to be very resistent 3d printed._  
 
   
 
