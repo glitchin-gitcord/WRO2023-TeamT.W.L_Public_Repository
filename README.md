@@ -30,37 +30,41 @@ _Anyways, the robot car possesses the following main elements:_
 
   
 
-   -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. The motors are connected to an L298N motor controller that regulates the speed and direction of rotation of each motor. In addition, the robot has two servomotors that allow it to rotate the ultrasonic plate and the camera._  
+  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions._  
 
 
 
    
-  -   _ESP-32: Dual-Core SoC Chip (System on a Chip) of low cost and energy that uses a Tensilica Xtensa LX6 microprocessor (both in the one used here, and in its single or dual-core variants). This being the principal element on the entire robot (because, well, it is the one thing that powers the robot and makes possible all of its functions).
+  -   _ESP-32: Dual-Core SoC Chip (System on a Chip) of low cost and energy that uses a Tensilica Xtensa LX6 microprocessor (both in the one used here, and in its single or dual-core variants). This being the principal element on the entire robot (because, well, it is the one thing that powers the robot and makes possible all of its functions)._
 
  
 
 
-   -   _Expansion Module:  _ 
+   -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details:_
+_DC power connector: 6.5 - 16 V_
+_* Micro USB: 5V (power only)_
+_* USB Type-C: 5V (power only)_
+_Those are the only details I could found for this specific expansion module._
+
+
+
+
+   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. It goes emiting unaudible sound waves and measuring the time they take to bounce off nearby objects. In this way, the robot can measure the distance to obstacles and avoid them. Especifically the HC-SR04 is a popular ultrasonic sensor that is easy to use and provides accurate distance measurements._
+  
 
   
 
- 
-   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. The “Head” moves, emiting unaudible sound waves and measuring the time they take to bounce off nearby objects. In this way, the robot can measure the distance to obstacles and avoid them. The ultrasonic board is mounted on a servomotor that allows it to rotate and explore the environment._  
-  
-
-  
-
-   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP32. The camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms. The camera is also mounted on a servomotor that allows it to orient itself._  
+   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP32. The camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms._  
 
   
   
 
-   -   _Custom Chasis: Since this design is made almost from nothing, we had to recreate some (if not all) of the pieces, being made both from cardboard and other easy-to-find materials, and 3d printed, being only the chasis and other small parts that had to be very resistent 3d printed._  
+   -   _Custom Chassis: The custom chassis was made almost from scratch, so we had to recreate some (if not all) of the pieces. We used cardboard and other easy-to-find materials to create most of the case. However, the chassis and other small parts that had to be very resistant were 3D printed. This allowed us to create a custom design that was both functional and aesthetically pleasing._  
 
   
 
 
-   -   _0.0v AA Lithium Batteries:_  
+   -   _1.5v AA Batteries: Guess I don't need to explain what a AA battery is. Previously we used a "peculiar" type of battery called "18650 rechargeable lithium batteries" because of the high energy comsumption, but in this remake of the robot, we didn't need to use them and it was more easy en the mayority of aspects, so we kept going with the traditional AA batteries.
 
 
   
