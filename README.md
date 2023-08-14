@@ -30,7 +30,7 @@ _Anyways, the robot car possesses the following main elements:_
 
   
 
-  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions._  
+  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. procede a enseñar que hace cada motor cuando tengas la info_  
 
 
 
@@ -40,7 +40,7 @@ _Anyways, the robot car possesses the following main elements:_
  
 
 
-   -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details:_
+   -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details about the power ports on the expansion module:_
      
   _DC power connector: 6.5 - 16 V_, 
   _* Micro USB: 5V (power only)_, 
@@ -51,12 +51,12 @@ _Anyways, the robot car possesses the following main elements:_
 
 
 
-   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. It goes emiting unaudible sound waves and measuring the time they take to bounce off nearby objects. In this way, the robot can measure the distance to obstacles and avoid them. Especifically the HC-SR04 is a popular ultrasonic sensor that is easy to use and provides accurate distance measurements._
+   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. The HC-SR04 sensor has two transducers: a piezoelectric transmitter and receiver, in addition to the electronics necessary for its operation. The operation of the sensor is as follows: the piezoelectric transmitter emits 8 ultrasonic pulses (40KHz) after receiving the order on the TRIG pin, the sound waves travel in the air and bounce when meeting an object, the bounce sound is detected by the piezoelectric receiver, then the ECHO pin changes to High (5V) for a time equal to the time the wave took from when it was emitted to when it was detected, the time of the ECO pulse is measured by the microcontroller and thus the distance can be calculated to the object. Sensor performance is not affected by sunlight or black-colored material (although acoustically soft materials such as cloth or wool can be difficult to detect). All of this in a range of 2 to 450 cm._
   
 
   
 
-   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP32. The camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms._  
+   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP32. Built by Omnivision back in 2005, the camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms, and even when it was discontinued back in 2009, it is still remains popular today._  
 
   
   
