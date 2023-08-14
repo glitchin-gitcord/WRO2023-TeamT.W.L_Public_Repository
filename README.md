@@ -42,8 +42,8 @@ _Anyways, the robot car possesses the following main elements:_
 
    -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details:_
      
-_DC power connector: 6.5 - 16 V_
-_* Micro USB: 5V (power only)_
+_DC power connector: 6.5 - 16 V_, 
+_* Micro USB: 5V (power only)_, 
 _* USB Type-C: 5V (power only)_
 
 _Those are the only details I could found for this specific expansion module._
