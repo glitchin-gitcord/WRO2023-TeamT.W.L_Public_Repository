@@ -71,15 +71,12 @@ _Anyways, the robot car possesses the following main elements:_
 
   
 
-   - _
-
-  
-
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+HOW THE CAMERA WORKS
 _The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the OV2640 camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color. The way to load the code would be to connect a Micro-USB cable to the USB port of the ESP32, start loading the code from the programming environment and wait for the process to finish._
 
-  
+OBJECTIVE OF THE ROBOTIC SOLUTION
 The objective of this robotic solution model is to demonstrate the capabilities of the ESP32 chip and its possible applications in the field of educational robotics. The robot can perform different tasks such as following a line, avoiding obstacles, recognizing colors or expressing emotions.
 
 --------------------------------------------------------------------------------------------------------------------------------------
