@@ -30,7 +30,7 @@ _Anyways, the robot car possesses the following main elements:_
 
   
 
-  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. procede a enseñar que hace cada motor cuando tengas la info_  
+  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. Meanwhile one of the motor serves as rear wheel drive, the other gives it the ability to turn left or right._  
 
 
 
@@ -77,14 +77,18 @@ HOW THE CAMERA WORKS
 
 _The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the OV2640 camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color. The way to load the code would be to connect a Micro-USB cable to the USB port of the ESP32, start loading the code from the programming environment and wait for the process to finish._
 
-OBJECTIVE OF THE ROBOTIC SOLUTION
-
-The objective of this robotic solution model is to demonstrate the capabilities of the ESP32 chip and its possible applications in the field of educational robotics. The robot can perform different tasks such as following a line, avoiding obstacles, recognizing colors or expressing emotions.
-
---------------------------------------------------------------------------------------------------------------------------------------
 HOW TO COMPILE THE CODE TO THE VEHICLE
 
-ta ta ta que todavia no tengo el como
+_If you already finished the code that you are going to enter to ESP-32, the process of compiling it would be the following:_
+- _connect the esp32 through a micro usb_
+- _look for the button in the IDE to transfer the code_
+- _wait for it to finish_
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+OBJECTIVE OF THE ROBOTIC SOLUTION.
+
+The objective of this robotic solution model is to demonstrate the capabilities of the ESP32 chip and its possible applications in the field of educational robotics. Despite not having the many functions it previously had, it continues to be an excellent example for future generations to learn a field as interesting as robotics.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 _Thank You._
