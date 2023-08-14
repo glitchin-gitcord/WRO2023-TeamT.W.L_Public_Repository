@@ -22,7 +22,7 @@ _Hello, Here Luis from Team T.W.L., and again I and my colleagues will expand a 
 
   
 
-_The designed robotic solution model this time consists of a robot car, being built from scratch with some 3d printed elements, and powered by an ESP-32 once again, but this time with the addition of an expansion module, in wich we will expand later on._
+_The designed robotic solution model this time consists of a robot car, being built from scratch with some 3d printed elements, and powered by an ESP-32 programmed in ARDUINO IDE once again, but this time with the addition of an expansion module, in wich we will expand later on._
 
 _Anyways, the robot car possesses the following main elements:_
 
