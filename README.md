@@ -80,9 +80,9 @@ _The artificial vision algorithms that are used to recognize objects or colors a
 HOW TO COMPILE THE CODE TO THE VEHICLE
 
 _If you already finished the code that you are going to enter to ESP-32, the process of compiling it would be the following:_
-- _connect the esp32 through a micro usb_
-- _look for the button in the IDE to transfer the code_
-- _wait for it to finish_
+- _Connect the ESP-32 to the computer through a Micro-USB_
+- _Look for the button in the IDE to transfer the code_
+- _Wait for it to finish_
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
