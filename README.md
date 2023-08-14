@@ -42,11 +42,11 @@ _Anyways, the robot car possesses the following main elements:_
 
    -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details:_
      
-_DC power connector: 6.5 - 16 V_, 
-_* Micro USB: 5V (power only)_, 
-_* USB Type-C: 5V (power only)_
+  _DC power connector: 6.5 - 16 V_, 
+  _* Micro USB: 5V (power only)_, 
+  _* USB Type-C: 5V (power only)_
 
-_Those are the only details I could found for this specific expansion module._
+  _Those are the only details I could found for this specific expansion module._
 
 
 
@@ -66,7 +66,7 @@ _Those are the only details I could found for this specific expansion module._
   
 
 
-   -   _1.5v AA Batteries: Guess I don't need to explain what a AA battery is. Previously we used a "peculiar" type of battery called "18650 rechargeable lithium batteries" because of the high energy comsumption, but in this remake of the robot, we didn't need to use them and it was more easy en the mayority of aspects, so we kept going with the traditional AA batteries.
+   -   _1.5v AA Batteries: Guess I don't need to explain what a AA battery is. Previously we used a "peculiar" type of battery called "18650 rechargeable lithium batteries" because of the high energy comsumption, but in this remake of the robot, we didn't need to use them and it was more easy en the mayority of aspects, so we kept going with the traditional AA batteries._
 
 
   
