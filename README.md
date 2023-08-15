@@ -40,7 +40,7 @@ _Anyways, the robot car possesses the following main elements:_
  
 
 
-   -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details about the power ports on the expansion module:_
+   -   _Expansion Module: The expansion module for ESP32 is a device that connects to the ESP-32 microcontroller to provide more input/output pins. This one is generic so I can't really expand much in exact model and so, but I do have this details about the power ports on the expansion module:_
      
   _DC power connector: 6.5 - 16 V_, 
   _* Micro USB: 5V (power only)_, 
@@ -51,17 +51,17 @@ _Anyways, the robot car possesses the following main elements:_
 
 
 
-   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. The HC-SR04 sensor has two transducers: a piezoelectric transmitter and receiver, in addition to the electronics necessary for its operation. The operation of the sensor is as follows: the piezoelectric transmitter emits 8 ultrasonic pulses (40KHz) after receiving the order on the TRIG pin, the sound waves travel in the air and bounce when meeting an object, the bounce sound is detected by the piezoelectric receiver, then the ECHO pin changes to High (5V) for a time equal to the time the wave took from when it was emitted to when it was detected, the time of the ECO pulse is measured by the microcontroller and thus the distance can be calculated to the object. Sensor performance is not affected by sunlight or black-colored material (although acoustically soft materials such as cloth or wool can be difficult to detect). All of this in a range of 2 to 450 cm._
+   -   _Ultrasonic board: The robot has an HC-SR04 ultrasonic board that works as a sonar. The HC-SR04 sensor has two transducers: a piezoelectric transmitter and receiver, in addition to the electronics necessary for its operation. The operation of the sensor is as follows: the piezoelectric transmitter emits 8 ultrasonic pulses (40KHz) after receiving the order on the TRIG pin, the sound waves travel in the air and bounce when meeting an object, the bounce sound is detected by the piezoelectric receiver, then the ECHO pin changes to High (5V) for a time equal to the time the wave took from when it was emitted to when it was detected, the time of the ECHO pulse is measured by the microcontroller and thus the distance can be calculated to the object. Sensor performance is not affected by sunlight or black-colored material (although acoustically soft materials such as cloth or wool can be difficult to detect). All of this in a range of 2 to 450 cm._
   
 
   
 
-   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP32. Built by Omnivision back in 2005, the camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms, and even when it was discontinued back in 2009, it is still remains popular today._  
+   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP-32. Built by Omnivision back in 2005, the camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms, and even when it was discontinued back in 2009, it still remains popular today._  
 
   
   
 
-   -   _Custom Chassis: The custom chassis was made almost from scratch, so we had to recreate some (if not all) of the pieces. We used cardboard and other easy-to-find materials to create most of the case. However, the chassis and other small parts that had to be very resistant were 3D printed. This allowed us to create a custom design that was both functional and aesthetically pleasing._  
+   -   _Custom Chassis: The robot was made almost from scratch, so we had to recreate some (if not all) of the pieces. We used cardboard and other easy-to-find materials to create most of the case. However, the chassis and other small parts that had to be very resistant were 3D printed. This allowed us to create a custom design that was both functional and aesthetically pleasing._  
 
   
 
@@ -75,13 +75,13 @@ _Anyways, the robot car possesses the following main elements:_
 
 HOW THE CAMERA WORKS
 
-_The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the OV2640 camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color. The way to load the code would be to connect a Micro-USB cable to the USB port of the ESP32, start loading the code from the programming environment and wait for the process to finish._
+_The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the OV2640 camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color._
 
 HOW TO COMPILE THE CODE TO THE VEHICLE
 
 _If you already finished the code that you are going to enter to ESP-32, the process of compiling it would be the following:_
-- _Connect the ESP-32 to the computer through a Micro-USB_
-- _Look for the button in the IDE to transfer the code_
+- _Connect the ESP-32 to the computer through a Micro-USB cable_
+- _Look for the button in the Programming Environment to transfer the code_
 - _Wait for it to finish_
 
 --------------------------------------------------------------------------------------------------------------------------------------
