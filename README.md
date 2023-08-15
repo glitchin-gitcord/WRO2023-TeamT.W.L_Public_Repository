@@ -47,12 +47,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
    -   _Camera: The robot has an OV2640 camera that can be connected to the ESP-32. Built by Omnivision back in 2005, the camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms, and even when it was discontinued back in 2009, it still remains popular today._  
 
-  
-  
 
-   -   _Custom Chassis: The robot was made almost from scratch, so we had to recreate some (if not all) of the pieces. We used cardboard and other easy-to-find materials to create most of the case. However, the chassis and other small parts that had to be very resistant were 3D printed. This allowed us to create a custom design that was both functional and aesthetically pleasing._  
-
-  
 
 
    -   _1.5v AA Batteries: Guess I don't need to explain what a AA battery is. Previously we used a "peculiar" type of battery called "18650 rechargeable lithium batteries" because of the high energy comsumption, but in this remake of the robot, we didn't need to use them and it was more easy en the mayority of aspects, so we kept going with the traditional AA batteries._
