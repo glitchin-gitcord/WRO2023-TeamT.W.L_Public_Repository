@@ -50,7 +50,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
 
 
-   -   _1.5v AA Batteries: Guess I don't need to explain what a AA battery is. Previously we used a "peculiar" type of battery called "18650 rechargeable lithium batteries" because of the high energy comsumption, but in this remake of the robot, we didn't need to use them and it was more easy en the mayority of aspects, so we kept going with the traditional AA batteries._
+   -   _3.7V 18650 Lithium Batteries: The robot, due to its high energy consumption (yeh, still uses a lot of energy) uses this peculiar type of batteries to supply itself with energy. These batteries are rechargeable and have a capacity of between 1500 and 3500 mAh (ours supposedly have 9900 mah but I highly doubt it). The batteries have a nominal voltage of 3.7V and a maximum voltage of 4.2V. The batteries are connected to the robot through a battery holder that has an on/off switch. The batteries can be charged with a special charger that has a protection circuit against overloads and short circuits._
 
 
     Coding Environment
