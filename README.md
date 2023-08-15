@@ -30,7 +30,7 @@ _Anyways, the robot car possesses the following main elements:_
 
   
 
-  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. Meanwhile one of the motor serves as rear wheel drive, the other gives it the ability to turn left or right._  
+  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. Meanwhile one of the motors serves as rear wheel drive, the other gives it the ability to turn left or right. The rear wheel drive motor provides the forward or backward motion of the robot, while the turning motor rotates the front wheels to change the orientation of the robot. By combining these two motions, the robot can move in any direction on a flat surface._  
 
 
 
