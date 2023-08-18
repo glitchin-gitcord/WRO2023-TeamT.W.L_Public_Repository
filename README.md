@@ -30,7 +30,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
      Elements
   
 
-  -   _Motors: The robot has two direct current (DC) motors that allow it to move in different directions. Meanwhile one of the motors serves as rear wheel drive, the other gives it the ability to turn left or right. The rear wheel drive motor provides the forward or backward motion of the robot, while the turning motor rotates the front wheels to change the orientation of the robot. By combining these two motions, the robot can move in any direction on a flat surface._  
+  -   _Motors: The robot has 1 direct current (DC) motor and 1 SG90 servomotor that allow it to move in different directions. Meanwhile the DC motor serves as rear wheel drive, the servomotor gives it the ability to turn left or right. The rear wheel drive motor provides the forward or backward motion of the robot, while the turning motor rotates the front wheels to change the orientation of the robot. By combining these two motions, the robot can move in any direction on a flat surface._  
 
 
 
