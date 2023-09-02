@@ -35,7 +35,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
 
    
-  -   _ESP-32: Dual-Core SoC Chip (System on a Chip) of low cost and energy that uses a Tensilica Xtensa LX6 microprocessor (both in the one used here, and in its single or dual-core variants). This, along with the Raspberry Pi, being the main elements in the entire robot._
+  -   _ESP-32: Dual-Core SoC Chip (System on a Chip) of low cost and energy that uses a Tensilica Xtensa LX6 microprocessor (both in the one used here, and in its single or dual-core variants). Being an popular alternative to use beacuse of the low energy compsuntion and high processing power. This, along with the Raspberry Pi, being the main elements in the entire robot._
 
 
 
