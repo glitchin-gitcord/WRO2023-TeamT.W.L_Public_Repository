@@ -43,7 +43,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
   -   _Raspberry Pi 4: The Raspberry Pi 4 is a single-board development board used for entry-level computing, being released the latest version (Raspberry Pi 4) in June 2019. The board is available in four RAM variants: 1 GB, 2 GB, 4 GB, and 8 GB. Model B (the one we are using) is the most common and comes with a Broadcom BCM2711 processor, which is a 1.5GHz 12 GHz quad-core ARM Cortex-A72 processor. Additionally, it has enhanced USB capability with two USB 2.0 ports and two USB 3.0 ports, enabling up to ten times faster data transfers. It also comes with Gigabit Ethernet connectivity, built-in wireless and Bluetooth._
 
-_Before, the ESP-32 did all the hard work in the entire robot, but in the tests we noticed that it wouldn't take it, so we looked for alternatives to something that could take all the functions the robot had to handle by itself, so Edilio had the idea to use a Raspberry Pi 4 because of the experience he had investigating about it, so we got one to take at least the camera and color recognition functions, leaving the rest to the ESP-32._
+  _Before, the ESP-32 did all the hard work in the entire robot, but in the tests we noticed that it wouldn't take it, so we looked for alternatives to something that could take all the functions the robot had to handle by itself, so Edilio had the idea to use a Raspberry Pi 4 because of the experience he had investigating about it, so we got one to take at least the camera and color recognition functions, leaving the rest to the ESP-32._
 
 
 
