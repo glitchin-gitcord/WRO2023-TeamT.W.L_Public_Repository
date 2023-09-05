@@ -78,7 +78,7 @@ Its function related to code would be to detect colors and control the camera, a
 
     HOW THE CAMERA WORKS
 
-_The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the OV2640 camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color._
+_The artificial vision algorithms that are used to recognize objects or colors are computer programs that process the images captured by the camera and extract relevant information from them. For example, to recognize colors, We use an algorithm that converts color images to grayscale and then applies a red, green or blue color mask depending on the color we want to detect. Then, we calculate the percentage of pixels of the desired color in the image and compare it with a predefined threshold to determine whether or not there is presence of the color._
 
     HOW TO COMPILE THE CODE TO THE VEHICLE
 
