@@ -53,7 +53,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
   
 
-   -   _Camera: The robot has an OV2640 camera that can be connected to the ESP-32. Built by Omnivision back in 2005, the camera has a resolution of 2 megapixels and can capture images in color or grayscale. The camera is used to recognize objects, people or colors using artificial vision algorithms, and even when it was discontinued back in 2009, it still remains popular today._  
+   -   _Camera: The robot uses an Argom Tech 720p Cam20 Webcam, pretty generic so I can't really expand in detail about it._  
 
 
 
