@@ -68,9 +68,12 @@ _The previous time we didn't really expand in this point, but although it is not
 
 _It can handle C and C++ languages with specific rules for organizing the code. It also provides a software library from the Wiring project that has many common I/O functions. The code written by users only needs two basic functions: one to start the sketch and one to run the main loop. These functions are compiled and linked with a main() function in a loop using the GNU toolchain, which is also part of the IDE. The Arduino IDE uses a program called avrdude to turn the executable code into a text file with hexadecimal encoding that is transferred to the Arduino board by a loader program in the board’s firmware._
 
-
+Its function related to code would be to control movements (rear wheel drive, turn left or right), based on the information sent by the camera (more info ahead).
 
   -   _Python: Python Integrated Development Environment (or Python for short) is a high-level interpreted programming language whose philosophy emphasizes the readability of its code, it is used to develop applications of all kinds, for example: Instagram, Netflix, Spotify, Panda3D, among others. It is a multi-paradigm programming language, since it partially supports object orientation, imperative programming and, to a lesser extent, functional programming. It is an interpreted, dynamic and cross-platform language. Created back in late 80s, Python consistently ranks as one of the most popular programming languages._
+
+Its function related to code would be to detect colors and control the camera, and, subsequently, sends orders to the ESP-32 to move based on that information.
+
 ---------------------------------------------------------------------------------------------------------------------------------------
 
     HOW THE CAMERA WORKS
@@ -84,11 +87,14 @@ _If you already finished the code that you are going to enter to ESP-32, the pro
 - _Look for the button in the Programming Environment to transfer the code_
 - _Wait for it to finish_
 
+  {and well, Python runs natively on the Raspberry Pi, so}
+
 --------------------------------------------------------------------------------------------------------------------------------------
 
     OBJECTIVE OF THE ROBOTIC SOLUTION.
 
-The objective of this robotic solution model is to demonstrate the capabilities of the ESP32 chip and its possible applications in the field of educational robotics. Despite not having the many functions it previously had, it continues to be an excellent example for future generations to learn a field as interesting as robotics.
+The objetctive of this robotic solution is to demonstrate the capabilities of a study field such as robotics, kids and adults alike {well, we should serve as enough example to prove that concept ¯\_(ツ)_/¯}.
+
 
 --------------------------------------------------------------------------------------------------------------------------------------
 _Thank You._
