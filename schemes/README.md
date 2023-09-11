@@ -23,4 +23,5 @@ channels of the PCA9685.
 
 And as for the servos, channels 0-7 of PCA9685 are used to control servos.
 
+- Although not illustrated correctly, the Raspberry Pi 4 gets its energy from a Power Bank via USB, connects to the Esp32 via USB and uses the Webcam via USB.
 ------------------------
