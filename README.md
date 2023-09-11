@@ -74,7 +74,7 @@ Its function related to code would be to control movements (rear wheel drive, tu
 
 Its function related to code would be to detect colors and control the camera, and, subsequently, sends orders to the ESP-32 to move based on that information.
 
----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
 
     HOW THE CAMERA WORKS
 
