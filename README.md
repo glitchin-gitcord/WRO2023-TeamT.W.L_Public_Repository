@@ -62,7 +62,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
    
    =   _3.7V 18650 Lithium Batteries: The robot, due to its high energy consumption (yeh, still uses a lot of energy) uses this peculiar type of batteries to supply itself with energy. These batteries are rechargeable and have a capacity of between 1500 and 3500 mAh (ours supposedly have 9900 mAh but I highly doubt it). The batteries have a nominal voltage of 3.7V and a maximum voltage of 4.2V. The batteries are connected to the robot through a battery holder that has an on/off switch. The batteries can be charged with a special charger that has a protection circuit against overloads and short circuits._
 
-   =   _Power Bank: Because some SBC didn't want to use the same batteries that everyone else used, here we are. Seriously speaking, for accesibility mostly we use a Insignia NS-MB8002 Power Bank to supply the Raspberry Pi with energy. It is obviously rechargeable, have a nominal voltage of 5V and a capacity of 2.2mAh._
+   =   _Power Bank: Because some SBC didn't want to use the same batteries that everyone else used, here we are. Seriously speaking, for accesibility reasons mostly, we use a Insignia NS-MB8002 Power Bank to supply the Raspberry Pi with energy. It is obviously rechargeable, have a nominal voltage of 5V and a capacity of 2.2mAh._
 
 
     Coding Environments
