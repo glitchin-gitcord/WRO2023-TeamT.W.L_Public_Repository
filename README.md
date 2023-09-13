@@ -41,7 +41,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
 
 
 
-  -   _Raspberry Pi 4: The Raspberry Pi 4 is a single-board development board used for entry-level computing, being released the latest version (Raspberry Pi 4) in June 2019. The board is available in four RAM variants: 1 GB, 2 GB, 4 GB, and 8 GB. Model B (the one we are using) is the most common and comes with a Broadcom BCM2711 processor, which is a 1.5GHz 12 GHz quad-core ARM Cortex-A72 processor. Additionally, it has enhanced USB capability with two USB 2.0 ports and two USB 3.0 ports, enabling up to ten times faster data transfers. It also comes with Gigabit Ethernet connectivity, built-in wireless and Bluetooth._
+  -   _Raspberry Pi 4: The Raspberry Pi 4 is a single-board development board used for entry-level computing, being released the latest version (Raspberry Pi 4) in June 2019. The board is available in four RAM variants: 1 GB, 2 GB, 4 GB, and 8 GB. Model B (the one we are using) is the most common and comes with a Broadcom BCM2711 processor, which is a 1.5GHz quad-core ARM Cortex-A72 processor. Additionally, it has enhanced USB capability with two USB 2.0 ports and two USB 3.0 ports, enabling up to ten times faster data transfers. It also comes with Gigabit Ethernet connectivity, built-in wireless and Bluetooth._
 
   _Before, the ESP-32 did all the hard work in the entire robot, but in the tests we noticed that it wouldn't take it, so we looked for alternatives to something that could take all the functions the robot had to handle by itself, so Edilio had the idea to use a Raspberry Pi 4 because of the experience he had investigating about it, so we got one to take at least the camera and color recognition functions, leaving the rest to the ESP-32._
 
@@ -62,7 +62,7 @@ _Now, we will expand in the main aspects used and incluided in the robot car's d
    
    =   _3.7V 18650 Lithium Batteries: The robot, due to its high energy consumption (yeh, still uses a lot of energy) uses this peculiar type of batteries to supply itself with energy. These batteries are rechargeable and have a capacity of between 1500 and 3500 mAh (ours supposedly have 9900 mAh but I highly doubt it). The batteries have a nominal voltage of 3.7V and a maximum voltage of 4.2V. The batteries are connected to the robot through a battery holder that has an on/off switch. The batteries can be charged with a special charger that has a protection circuit against overloads and short circuits._
 
-   =   _Power Bank: Because some SBC didn't want to use the same batteries that everyone else used, here we are. Seriously speaking, for accesibility reasons mostly, we use a Insignia NS-MB8002 Power Bank to supply the Raspberry Pi with energy. It has 2 USB ports, along with a Type-C port for charging, with an output voltage of 5V and 2.2mAH._
+   =   _Power Bank: Because some SBC didn't want to use the same batteries that everyone else used, here we are. Seriously speaking, for accesibility reasons mostly, we use a Insignia NS-MB8002 Power Bank to supply the Raspberry Pi with energy. It has 2 USB ports, along with a Micro-USB port for charging, with an output voltage of 5V and 2.1A._
 
 
     Coding Environments
